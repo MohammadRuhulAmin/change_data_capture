@@ -55,11 +55,12 @@
   ```
 
 
-
 ### Reference:
-```html
-https://debezium.io/documentation/reference/stable/tutorial.html
-```
+
+- https://debezium.io/documentation/reference/stable/tutorial.html
+- https://docs.google.com/document/d/1oux7NTqaP5bs_K9mHrKFj8LBIEkC4i-Oh8WhofQarV8/edit?usp=sharing
+- 
+
 
 
   
