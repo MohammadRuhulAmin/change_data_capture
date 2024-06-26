@@ -11,6 +11,10 @@
   ```shell
    docker run -it --rm --name kafka -p 9092:9092 --link zookeeper:zookeeper quay.io/debezium/kafka:2.5
   ```
+- Step3: Starting a MySQL database
+  ```shell
+  docker run -it --rm --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=debezium -e MYSQL_USER=mysqluser -e MYSQL_PASSWORD=mysqlpw          quay.io/debezium/example-mysql:2.5
+  ```
 
 
 
