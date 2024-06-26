@@ -30,7 +30,10 @@
     mysql> use inventory;
     mysql> SELECT * FROM customers; #just for checking
   ```
-
+- Step 5: Start Debezium
+  ```shell
+  docker run -it --rm --name watcher --link zookeeper:zookeeper --link kafka:kafka quay.io/debezium/kafka:2.5 watch-topic -a -k dbserver1.inventory.customers
+  ```
 
 
 
