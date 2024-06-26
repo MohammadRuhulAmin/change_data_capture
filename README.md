@@ -12,7 +12,7 @@
    docker run -it --rm --name kafka -p 9092:9092 --link zookeeper:zookeeper quay.io/debezium/kafka:2.5
   ```
 - Step3: Starting a MySQL database
-  kill :
+- 
   ```shell
   # Not necessarily needed for all time
   sudo lsof -i :3306
