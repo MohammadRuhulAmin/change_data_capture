@@ -57,10 +57,9 @@
 
 ### Reference:
 
-- https://debezium.io/documentation/reference/stable/tutorial.html
-- https://docs.google.com/document/d/1oux7NTqaP5bs_K9mHrKFj8LBIEkC4i-Oh8WhofQarV8/edit?usp=sharing
-- 
-
+- [debezium official document](https://debezium.io/documentation/reference/stable/tutorial.html)
+- [self study](https://docs.google.com/document/d/1oux7NTqaP5bs_K9mHrKFj8LBIEkC4i-Oh8WhofQarV8/edit?usp=sharing)
+  
 
 
   
