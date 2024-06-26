@@ -7,6 +7,10 @@
   ```shell
     docker run -it --rm --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 quay.io/debezium/zookeeper:2.5
   ```
+- Step2: Start Kafka broker
+  ```shell
+   docker run -it --rm --name kafka -p 9092:9092 --link zookeeper:zookeeper quay.io/debezium/kafka:2.5
+  ```
 
 
 
