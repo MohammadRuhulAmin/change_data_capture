@@ -49,8 +49,9 @@
   To see the captured event, lets execute the following query and observe the system one by one:
   ```sql
     update customers set last_name = "xyyd" where id = 1001;
-    delete from customers where id = 1002;
     insert into customers(first_name,last_name,email)values("ruhul","amin","ruhul.cs.dev@gmail.com");
+    delete from customers where email = "ruhul.cs.dev@gmail.com";
+    
   ```
 
 
