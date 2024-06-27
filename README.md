@@ -42,7 +42,7 @@
   ```
 - Step 7 : Vewing the captured event
   ```shell
-    docker run -it --rm --name watcher --link zookeeper:zookeeper --link kafka:kafka quay.io/debezium/kafka:2.5 watch-topic -a -k   dbserver1.inventory.customers -a
+    docker run -it --rm --name watcher --link zookeeper:zookeeper --link kafka:kafka quay.io/debezium/kafka:2.5 watch-topic -a -k dbserver1.inventory.customers
 
 
   ```
